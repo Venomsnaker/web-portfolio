@@ -1,0 +1,56 @@
+.contact-parent {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-guide {
+    color: #F5FFFA;
+    margin: 1rem;
+}
+
+.contact-email-txt{
+    margin: 0rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #F5FFFA;
+}
+
+.contact-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    color: #90EE90;
+    font-size: 1.5rem;
+    transition: all 1s;
+}
+
+.contact-email:hover {
+    color: #FFCC33;
+    text-decoration: underline;
+    transition: all 1s;
+}
+
+.contact-icons {
+    display: inline-block;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.contact-icons a {
+    text-align: center;
+    font-size: 3rem;
+    color: #f5fffa;
+    margin: 2rem;
+    transition: all 0.4s;
+}
+
+.contact-icons a:hover {
+    color: #ffcc33;
+    font-size: 3.5rem;
+    transition: all 0.4s;
+}

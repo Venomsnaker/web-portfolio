@@ -1,0 +1,64 @@
+.home-group {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.home-avatar {
+    margin-top: 1rem;
+    width: 10rem;
+}
+
+.home-name {
+    color: #F5FFFA;
+    margin: 1rem;
+}
+
+.home-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-icons a {
+    color: #F5FFFA;
+    font-size: 3rem;
+    margin: 1rem;
+    transition: all 0.2s;
+}
+
+.home-icons a:hover {
+    color: #FFCC33;
+    margin-top: 0.5rem;
+    transition: all 0.2s;
+}
+
+.home-button-hire {
+    background-color: #F64A8A;
+    border: none;
+    color: #111111;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    transition: all 0.4s;
+}
+
+.home-button-hire:hover {
+    border-radius: 2rem;
+    background-color: #FFCC33;
+    margin-left: 2rem;
+    transition: all 0.4s;
+}
+
+.home-greet {
+    color: #F5FFFA;
+    font-size: 1.5rem;
+    margin: 1rem;
+}

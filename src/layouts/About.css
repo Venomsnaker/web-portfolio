@@ -1,0 +1,24 @@
+.about-group {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-group p{
+    text-align: center;
+    margin: 0rem 3rem 1.5rem 3rem;
+    font-size: 1.5rem;
+    color: #F5FFFA;
+}
+
+.about-group p.about-fields {
+    color: #FFCC33;
+    font-size: 1.25rem;
+}
+
+.about-group p.about-greetings {
+    color: #90EE90;
+}
