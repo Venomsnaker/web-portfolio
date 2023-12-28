@@ -8,7 +8,7 @@ const header = () => {
   return (
     <header className="z-[999] relative">
       <motion.div
-        className="fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none borde border-gray-600 border-s-4 bg-white bg-opacity-60 shadow-sm shadow-gray-600 backdrop-blur-[1rem] sm:top-6 sm:h-[3.25rem] sm:w-[30rem] sm:rounded-full dark:bg-gray-950 dark:border-gray-600 dark:bg-opacity-60"
+        className="fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border-gray-600 border-s-4 bg-white bg-opacity-60 shadow-sm shadow-gray-600 backdrop-blur-[1rem] sm:top-6 sm:h-[3.25rem] sm:w-[30rem] sm:rounded-full dark:bg-gray-950 dark:border-gray-600 dark:bg-opacity-60"
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
