@@ -18,6 +18,10 @@ export const links = [
     hash: "#skills",
   },
   {
+    name: "Experiences",
+    hash: "#experiences",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
@@ -29,10 +33,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Somophone at Ho Chi Minh University of Science",
+    title: "Sophomore at Ho Chi Minh University of Science",
     location: "Ho Chi Minh, Viet Nam",
     description:
-      "Majoring in Artificial Intelligence. GPA > 3.0.",
+      "I'm majoring in Artificial Intelligence with a current GPA > 3.0.",
     icon: React.createElement(FaUniversity),
     date: "2022-2024",
   },
@@ -40,7 +44,7 @@ export const experiencesData = [
     title: "Solo Indie Game Developer",
     location: "Viet Nam",
     description:
-      "I worked as a solo indie game developer in my tertiary education years. (Unity)",
+      "I worked as a solo indie game developer in my tertiary education years.",
     icon: React.createElement(FaGamepad),
     date: "2019 - 2022",
   },
@@ -65,7 +69,7 @@ export const projectsData = [
     title: "PC Remote Control",
     description:
       "It is a public Java app to control your PC remotely. Creating it, my first app, teaches me much about the process of app development.",
-    tags: ["Java", "Network", "JavaFX"],
+    tags: ["Java", "Java Socket", "JavaFX"],
     imageUrl: pcRemoteControl,
   },
 ] as const;
@@ -79,9 +83,5 @@ export const skillsData = [
   "Java",
   "MySQL",
   "Unity",
-  "JavaScript",
-  "TypeScript",
-  "React",
   "Next.js",
-  "Tailwind",
 ] as const;
