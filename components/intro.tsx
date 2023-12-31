@@ -53,7 +53,7 @@ const intro = () => {
         </div>
       </div>
 
-      <motion.h3
+      <motion.h1
         className="mb-4 mt-4 px-4 text-center text-1xl font-medium !leading-[1.5] sm:text-2xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -63,7 +63,7 @@ const intro = () => {
         <span className="font-bold"> sophomore at HCMUS</span>, who is
         interested in
         <span className="italic underline"> algorithms and arts. </span>
-      </motion.h3>
+      </motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -82,7 +82,7 @@ const intro = () => {
         </Link>
 
         <a
-          className="group bg-white hover:text-orange-500 m-2 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/5 dark:bg-white/10"
+          className="group bg-white hover:text-orange-500 shadow shadow-black/5 m-2 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer dark:bg-white/10"
           href="/CV.pdf"
           download
         >
@@ -91,7 +91,7 @@ const intro = () => {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-950 hover:text-orange-500 mx-2 text-opacity-60 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/5 dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-gray-950 hover:text-orange-500 shadow shadow-black/5 mx-2 text-opacity-60 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer  dark:bg-white/10 dark:text-white/60"
           href="https://linkedin.com"
           target="_blank"
         >
@@ -99,7 +99,7 @@ const intro = () => {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-950 hover:text-orange-500 mx-2 text-opacity-60 flex items-center gap-2 text-[1.15rem] rounded-full focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition cursor-pointer border border-black/5 dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-gray-950 hover:text-orange-500 shadow shadow-black/5 mx-2 text-opacity-60 flex items-center gap-2 text-[1.15rem] rounded-full focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/60"
           href="https://github.com"
           target="_blank"
         >
