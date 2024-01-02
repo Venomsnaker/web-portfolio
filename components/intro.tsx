@@ -1,24 +1,29 @@
 "use client";
+
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import avatar from "@/public/avatar.jpg";
+import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
 import {
   FaArrowAltCircleDown,
-  FaArrowCircleDown,
-  FaArrowDown,
-  FaCircle,
   FaFileDownload,
   FaGithub,
-  FaLink,
   FaLinkedin,
-  FaPhone,
 } from "react-icons/fa";
 
 const intro = () => {
+  const { ref } = useSectionInView("Home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+
   return (
-    <section>
+    <section
+      ref={ref}
+      id="home"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -58,11 +63,11 @@ const intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Halo, I'm
-        <span className="font-bold"> Huy</span>. I'm a
-        <span className="font-bold"> sophomore at HCMUS</span>, who is
-        interested in
-        <span className="italic underline"> algorithms and arts. </span>
+        Greeting! I'm
+        <span className="font-bold"> Huy</span>. currently a sophomore at
+        <span className="font-bold"> HCMUS</span>. My interests are anything
+        related to
+        <span className="italic underline"> computers</span>.
       </motion.h1>
 
       <motion.div
@@ -73,20 +78,12 @@ const intro = () => {
           delay: 0.2,
         }}
       >
-        <Link
-          href={"#contact"}
-          className="group bg-gray-950 text-white hover:text-orange-500 m-2 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
-        >
-          Contact me here{" "}
-          <FaArrowAltCircleDown className="group-hover:translate-y-1 transition" />
-        </Link>
-
         <a
           className="group bg-white hover:text-orange-500 shadow shadow-black/5 m-2 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer dark:bg-white/10"
           href="/CV.pdf"
           download
         >
-          Download my CV{" "}
+          Download My CV{" "}
           <FaFileDownload className="group-hover:translate-y-1 transition" />
         </a>
 
@@ -105,6 +102,17 @@ const intro = () => {
         >
           <FaGithub />
         </a>
+        <Link
+          href={"#contact"}
+          className="group bg-gray-950 text-white hover:text-orange-500 m-2 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
+          onClick={() => {
+            setActiveSection("Contact");
+            setTimeOfLastClick(Date.now());
+          }}
+        >
+          Contact Me Here{" "}
+          <FaArrowAltCircleDown className="group-hover:translate-y-1 transition" />
+        </Link>
       </motion.div>
     </section>
   );
