@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGamepad, FaReact, FaUniversity } from "react-icons/fa";
+import { FaGamepad, FaUniversity } from "react-icons/fa";
 import codingPanel from "@/public/coding-panel.png"
 import linkedin from "@/public/linkedin.png"
 import pcRemoteControl from "@/public/pc-remote-control.png"
@@ -14,16 +14,16 @@ export const links = [
     hash: "#about",
   },
   {
+    name: "Projects",
+    hash: "#projects",
+  },
+  {
     name: "Skills",
     hash: "#skills",
   },
   {
     name: "Experiences",
     hash: "#experiences",
-  },
-  {
-    name: "Projects",
-    hash: "#projects",
   },
   {
     name: "Contact",
@@ -33,42 +33,42 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Sophomore at Ho Chi Minh University of Science",
-    location: "Ho Chi Minh, Viet Nam",
-    description:
-      "I'm majoring in Artificial Intelligence with a current GPA > 3.0.",
-    icon: React.createElement(FaUniversity),
-    date: "2022-2024",
-  },
-  {
-    title: "Solo Indie Game Developer",
+    title: "Indie Game Developer",
     location: "Viet Nam",
     description:
       "I worked as a solo indie game developer in my tertiary education years.",
     icon: React.createElement(FaGamepad),
     date: "2019 - 2022",
   },
+  {
+    title: "Sophomore at HCMUS",
+    location: "Ho Chi Minh, Viet Nam",
+    description:
+      "I'm majoring in Artificial Intelligence with a current GPA > 3.0.",
+    icon: React.createElement(FaUniversity),
+    date: "2022-2024",
+  },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Coding",
+    title: "Bachelor Degree Projects",
     description:
-      "I learn a lot from my mentors and friends at HCMUS. Coding is my passion for skewing connective pieces, so I wish to pursue it for quite some time.",
+      "There are many small-scale projects that I participated in my college years. I have learned many skills from my mentors and friends while creating these projects.",
     tags: ["Git", "C++", "C#", "Python", "R", "Java", "MySQL"],
     imageUrl: codingPanel,
   },
   {
-    title: "LinkedIn",
+    title: "Social Medias",
     description:
-      "Knowing individual weaknesses and strengths is a key to improving oneself. Therefore, I usually keep track of my experience and progress across social media platforms. Please check them out if you are interested.",
+      "Knowing individual weaknesses and strengths is a key to improving oneself. Therefore, I usually keep track of my experience and progress across social media platforms.",
     tags: ["Project Management", "React.js", "Next.js", "Tailwind"],
     imageUrl: linkedin,
   },
   {
     title: "PC Remote Control",
     description:
-      "It is a public Java app to control your PC remotely. Creating it, my first app, teaches me much about the process of app development.",
+      "A public Java app to control your PC remotely. Creating it, my first app, teaches me much about the process of app development.",
     tags: ["Java", "Java Socket", "JavaFX"],
     imageUrl: pcRemoteControl,
   },
