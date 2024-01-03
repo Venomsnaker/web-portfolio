@@ -2,9 +2,9 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { links } from "@/lib/data";
 import clsx from "clsx";
 import Link from "next/link";
+import { links } from "@/lib/data";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 const header = () => {

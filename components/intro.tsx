@@ -2,17 +2,17 @@
 
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
-import Link from "next/link";
-import avatar from "@/public/avatar.jpg";
-import { useSectionInView } from "@/lib/hooks";
-import { useActiveSectionContext } from "@/context/active-section-context";
 import {
   FaArrowAltCircleDown,
   FaFileDownload,
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
+import { motion } from "framer-motion";
+import Link from "next/link";
+import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
+import avatar from "@/public/avatar.jpg";
 
 const intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
