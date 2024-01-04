@@ -40,7 +40,7 @@ export default function About() {
         I'm eager to learn it!{" "}
       </p>
 
-      <p>
+      <p className="text-center">
         <span className="font-medium">Regarding leisure activities</span>, I
         enjoy caring for my house plants and organizing my room.{" "}
         <span className="italic">

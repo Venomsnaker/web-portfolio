@@ -64,7 +64,7 @@ const intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         Greeting! I'm
-        <span className="font-bold"> Huy</span>. currently a sophomore at
+        <span className="font-bold"> Huy</span>, currently a sophomore at
         <span className="font-bold"> HCMUS</span>. My interests are anything
         related to
         <span className="italic underline"> computers</span>.
@@ -89,7 +89,7 @@ const intro = () => {
 
         <a
           className="bg-white p-4 text-gray-950 hover:text-orange-500 shadow shadow-black/5 mx-2 text-opacity-60 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer  dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/quốc-huy-bùi-8298b02a0/"
           target="_blank"
         >
           <FaLinkedin />
@@ -97,7 +97,7 @@ const intro = () => {
 
         <a
           className="bg-white p-4 text-gray-950 hover:text-orange-500 shadow shadow-black/5 mx-2 text-opacity-60 flex items-center gap-2 text-[1.15rem] rounded-full focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/Venomsnaker"
           target="_blank"
         >
           <FaGithub />

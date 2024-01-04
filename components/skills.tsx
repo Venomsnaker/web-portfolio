@@ -30,10 +30,10 @@ export default function Skills() {
       className="mb-28 max-w-[36rem] scroll-mt-28 text-center sm:mb-40"
     >
       <SectionHeading>Skills</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+      <ul className="flex flex-wrap justify-center gap-2 text-lg">
         {skillsData.map((skill, index) => (
           <motion.li
-            className="bg-gray-200 borderBlack rounded-xl mx-1 px-5 py-3 dark:bg-slate-800 dark:text-gray-400"
+            className="bg-gray-200 rounded-xl mx-1 px-5 py-3 dark:bg-slate-800 dark:text-gray-400"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"

@@ -59,18 +59,18 @@ export const projectsData = [
     imageUrl: codingPanel,
   },
   {
-    title: "Social Medias",
-    description:
-      "Knowing individual weaknesses and strengths is a key to improving oneself. Therefore, I usually keep track of my experience and progress across social media platforms.",
-    tags: ["Project Management", "React.js", "Next.js", "Tailwind"],
-    imageUrl: linkedin,
-  },
-  {
     title: "PC Remote Control",
     description:
       "A public Java app to control your PC remotely. Creating it, my first app, teaches me much about the process of app development.",
     tags: ["Java", "Java Socket", "JavaFX"],
     imageUrl: pcRemoteControl,
+  },
+  {
+    title: "Social Medias",
+    description:
+      "Knowing individual weaknesses and strengths is a key to improving oneself. Therefore, I usually keep track of my experience and progress across social media platforms.",
+    tags: ["Project Management", "React.js", "Next.js", "Tailwind"],
+    imageUrl: linkedin,
   },
 ] as const;
 
