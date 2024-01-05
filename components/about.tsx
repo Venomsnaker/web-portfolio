@@ -17,12 +17,12 @@ export default function About() {
       transition={{ delay: 0.2 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
-      <p className="mb-3 text-center">
+      <SectionHeading>About</SectionHeading>
+      <p className="mb-3 text-center text-lg">
         My passion for programming stems from{" "}
-        <span className="font-medium">high school</span>, ever since I started
+        <span className="font-bold">high school</span>, ever since I started
         making indie games with simple code snippets. Later, I enrolled in{" "}
-        <span className="font-medium">
+        <span className="font-bold">
           HCMUS - Ho Chi Minh University of Science
         </span>
         , majoring in <span className="underline">Artificial Intelligence</span>
@@ -33,15 +33,15 @@ export default function About() {
         </span>{" "}
         I am fascinated by the challenges and opportunities it offers for
         solving{" "}
-        <span className="font-medium">
+        <span className="font-bold">
           complex problems and creating innovative applications
         </span>
         . <span className="italic">AI is a cutting-edge technology</span>, and
         I'm eager to learn it!{" "}
       </p>
 
-      <p className="text-center">
-        <span className="font-medium">Regarding leisure activities</span>, I
+      <p className="text-center text-lg">
+        <span className="font-bold">Regarding leisure activities</span>, I
         enjoy caring for my house plants and organizing my room.{" "}
         <span className="italic">
           My belief is that humans can only work effectively in a

@@ -22,10 +22,9 @@ export default function Experience() {
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
-              visible = {true}
+              visible={true}
               contentStyle={{
-                background:
-                  theme === "light" ? "#e5e7eb" : "#1e293b",
+                background: theme === "light" ? "#e5e7eb" : "#1e293b",
                 boxShadow: "none",
                 textAlign: "left",
                 padding: "1.5rem 1.5rem",
@@ -39,8 +38,7 @@ export default function Experience() {
               date={item.date}
               icon={item.icon}
               iconStyle={{
-                background:
-                  theme === "light" ? "#86efac" : "#374151",
+                background: theme === "light" ? "#d1d5db" : "#374151",
                 fontSize: "1.5rem",
               }}
             >

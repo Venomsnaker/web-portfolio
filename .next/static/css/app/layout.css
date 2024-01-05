@@ -725,9 +725,6 @@ video {
 .border-2 {
   border-width: 2px;
 }
-.border {
-  border-width: 1px;
-}
 .border-s-4 {
   border-inline-start-width: 4px;
 }
@@ -737,10 +734,6 @@ video {
 .border-gray-600 {
   --tw-border-opacity: 1;
   border-color: rgb(75 85 99 / var(--tw-border-opacity));
-}
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 .border-gray-950 {
   --tw-border-opacity: 1;
@@ -762,10 +755,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
@@ -778,17 +767,13 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(3 7 18 / var(--tw-bg-opacity));
 }
-.bg-slate-400 {
+.bg-slate-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-slate-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6;
@@ -913,13 +898,13 @@ video {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
-.text-gray-800 {
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
-}
 .text-gray-950 {
   --tw-text-opacity: 1;
   color: rgb(3 7 18 / var(--tw-text-opacity));
+}
+.text-orange-500 {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -1001,24 +986,8 @@ html.dark {
   --line-color: #8c92ac;
 }
 
-.icon {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
 .last\:mb-0:last-child {
   margin-bottom: 0px;
-}
-
-.hover\:translate-x-1:hover {
-  --tw-translate-x: 0.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:translate-y-1:hover {
-  --tw-translate-y: 0.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:-translate-y-1:hover {
@@ -1045,6 +1014,10 @@ html.dark {
 
 .hover\:font-semibold:hover {
   font-weight: 600;
+}
+
+.hover\:font-bold:hover {
+  font-weight: 700;
 }
 
 .hover\:text-gray-950:hover {
@@ -1269,14 +1242,14 @@ html.dark {
   }
 }
 
+:is(:where(.dark) .dark\:border-gray-50) {
+  --tw-border-opacity: 1;
+  border-color: rgb(249 250 251 / var(--tw-border-opacity));
+}
+
 :is(:where(.dark) .dark\:border-gray-600) {
   --tw-border-opacity: 1;
   border-color: rgb(75 85 99 / var(--tw-border-opacity));
-}
-
-:is(:where(.dark) .dark\:border-white) {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 :is(:where(.dark) .dark\:bg-cyan-950) {
@@ -1321,6 +1294,11 @@ html.dark {
   --tw-bg-opacity: 0.6;
 }
 
+:is(:where(.dark) .dark\:text-gray-100) {
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
 :is(:where(.dark) .dark\:text-gray-200) {
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
@@ -1354,15 +1332,6 @@ html.dark {
   color: rgb(255 255 255 / 0.75);
 }
 
-:is(:where(.dark) .dark\:text-white\/80) {
-  color: rgb(255 255 255 / 0.8);
-}
-
-:is(:where(.dark) .dark\:text-gray-100) {
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
-}
-
 :is(:where(.dark) .dark\:text-opacity-90) {
   --tw-text-opacity: 0.9;
 }
@@ -1376,7 +1345,6 @@ html.dark {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
-
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[11].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/

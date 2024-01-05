@@ -21,7 +21,7 @@ const header = () => {
 
       <nav className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
         <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[1rem] font-medium text-gray-700 sm:w-[initial] sm:flex-nowrap sm:gap-5">
-        {links.map((link) => (
+          {links.map((link) => (
             <motion.li
               className="h-3/4 flex items-center justify-center relative"
               key={link.hash}
@@ -30,7 +30,7 @@ const header = () => {
             >
               <Link
                 className={clsx(
-                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 hover:-translate-y-1 hover:font-semibold transition dark:text-gray-500 dark:hover:text-gray-300",
+                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 hover:-translate-y-1 hover:font-bold transition dark:text-gray-500 dark:hover:text-gray-300",
                   {
                     "text-gray-950 dark:text-gray-200":
                       activeSection === link.name,

@@ -27,12 +27,12 @@ export default function Contact() {
       }}
     >
       <SectionHeading>Contact</SectionHeading>
-
       <p className="text-gray-700 -mt-6 dark:text-gray-100">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:qhuy.bui.contact@gmail.com">
           qhuy.bui.contact@gmail.com
-        </a>.{" "}
+        </a>
+        .{" "}
       </p>
     </motion.section>
   );

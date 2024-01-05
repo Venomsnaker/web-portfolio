@@ -1,8 +1,8 @@
 import React from "react";
 import { FaGamepad, FaUniversity } from "react-icons/fa";
-import codingPanel from "@/public/coding-panel.png"
-import linkedin from "@/public/linkedin.png"
-import pcRemoteControl from "@/public/pc-remote-control.png"
+import codingPanel from "@/public/coding-panel.png";
+import linkedin from "@/public/linkedin.png";
+import pcRemoteControl from "@/public/pc-remote-control.png";
 
 export const links = [
   {
@@ -14,12 +14,12 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
     name: "Skills",
     hash: "#skills",
+  },
+  {
+    name: "Projects",
+    hash: "#projects",
   },
   {
     name: "Experience",
