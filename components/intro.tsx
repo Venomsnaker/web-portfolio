@@ -14,7 +14,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import avatar from "@/public/avatar.jpg";
 
-const intro = () => {
+const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
@@ -118,4 +118,4 @@ const intro = () => {
   );
 };
 
-export default intro;
+export default Intro;
