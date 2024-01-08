@@ -89,7 +89,7 @@ const Intro = () => {
 
         <a
           className="bg-white p-4 text-gray-950 hover:text-orange-500 shadow shadow-black/5 mx-2 text-opacity-60 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer  dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/quốc-huy-bùi-8298b02a0/"
+          href="https://linkedin.com/in/quochuybui"
           target="_blank"
         >
           <FaLinkedin />
