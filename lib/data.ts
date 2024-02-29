@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGamepad, FaUniversity } from "react-icons/fa";
 import codingPanel from "@/public/coding-panel.png";
-import linkedin from "@/public/linkedin.png";
+import smartHarvest from "@/public/smart-harvest.png";
 import pcRemoteControl from "@/public/pc-remote-control.png";
 
 export const links = [
@@ -66,11 +66,11 @@ export const projectsData = [
     imageUrl: pcRemoteControl,
   },
   {
-    title: "Social Medias",
+    title: "Smart Harvest",
     description:
-      "Knowing individual weaknesses and strengths is a key to improving oneself. Therefore, I usually keep track of my experience and progress across social media platforms.",
-    tags: ["Project Management", "React.js", "Next.js", "Tailwind"],
-    imageUrl: linkedin,
+      "A webase/ mobile solution targets at farmers. Contributed mainly to the rice leaf diseases classification model.",
+    tags: ["Project Management", "Python", "Modeling"],
+    imageUrl: smartHarvest,
   },
 ] as const;
 
