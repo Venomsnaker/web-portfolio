@@ -76,12 +76,12 @@ export const projectsData = [
 
 export const skillsData = [
   "Git",
+  "C",
   "C++",
   "C#",
   "Python",
   "R",
-  "Java",
   "MySQL",
   "Unity",
-  "Next.js",
+  "Unreal Engine",
 ] as const;
