@@ -1,8 +1,8 @@
 import React from "react";
 import { FaGamepad, FaUniversity } from "react-icons/fa";
-import codingPanel from "@/public/coding-panel.png";
-import smartHarvest from "@/public/smart-harvest.png";
-import pcRemoteControl from "@/public/pc-remote-control.png";
+import imgProject from "@/public/img-project.jpg"
+import imgCode from "@/public/img-code.jpg"
+import imgCreativity from "@/public/img-creativity.jpg"
 
 export const links = [
   {
@@ -38,13 +38,13 @@ export const experiencesData = [
     description:
       "I worked as a solo indie game developer in my tertiary education years.",
     icon: React.createElement(FaGamepad),
-    date: "2019 - 2022",
+    date: "2019-2022",
   },
   {
-    title: "Sophomore at HCMUS",
+    title: "HCMUS Sophomore",
     location: "Ho Chi Minh, Viet Nam",
     description:
-      "I'm majoring in Artificial Intelligence with a current GPA > 3.0.",
+      "I'm majoring in Artificial Intelligence with a current GPA of roughly 3.5.",
     icon: React.createElement(FaUniversity),
     date: "2022-2024",
   },
@@ -52,36 +52,35 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Bachelor Degree Projects",
+    title: "School Projects",
     description:
-      "There are many small-scale projects that I participated in my college years. I have learned many skills from my mentors and friends while creating these projects.",
-    tags: ["Git", "C++", "C#", "Python", "R", "Java", "MySQL"],
-    imageUrl: codingPanel,
+      "There are many small-scale projects that I participated in my college years. I have learned many valuable skills from my mentors and friends while creating these projects.",
+    tags: ["Git", "C++", "C#", "Python", "R", "MySQL"],
+    imageUrl: imgCode,
   },
   {
-    title: "PC Remote Control",
+    title: "NLP Projects",
     description:
-      "A public Java app to control your PC remotely. Creating it, my first app, teaches me much about the process of app development.",
-    tags: ["Java", "Java Socket", "JavaFX"],
-    imageUrl: pcRemoteControl,
+      "I am working on various NLP topics to support my bachelor's degree in Artificial Intelligence. Currently, I'm tacting with the foundations for LMM.",
+    tags: ["Project Management", "Python", "NLP"],
+    imageUrl: imgProject,
   },
   {
-    title: "Smart Harvest",
+    title: "Indie Game Projects",
     description:
-      "A webase/ mobile solution targets at farmers. Contributed mainly to the rice leaf diseases classification model.",
-    tags: ["Project Management", "Python", "Modeling"],
-    imageUrl: smartHarvest,
+      "I have worked on various indie games, participating in GMTK 2019 and GMTK 2020. All games are in 2D built using Unity, but I'm moving toward building 3D games with Unreal Engine.",
+    tags: ["Unity", "Unreal Engine"],
+    imageUrl: imgCreativity,
   },
 ] as const;
 
 export const skillsData = [
   "Git",
-  "C",
   "C++",
   "C#",
   "Python",
   "R",
-  "MySQL",
+  "SQL",
   "Unity",
   "Unreal Engine",
 ] as const;

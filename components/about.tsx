@@ -27,6 +27,8 @@ export default function About() {
         </span>
         , majoring in <span className="underline">Artificial Intelligence</span>
         , which gave me a strong foundation for my career.
+      </p>
+      <p className="mb-3 text-center text-lg">
         <span className="italic">
           {" "}
           Why Artificial Intelligence, you may ask?
@@ -39,10 +41,9 @@ export default function About() {
         . <span className="italic">AI is a cutting-edge technology</span>, and
         I'm eager to learn it!{" "}
       </p>
-
       <p className="text-center text-lg">
-        <span className="font-bold">Regarding leisure activities</span>, I
-        enjoy caring for my house plants and organizing my room.{" "}
+        <span className="font-bold">Regarding leisure activities</span>, I enjoy
+        caring for my house plants and organizing my room.{" "}
         <span className="italic">
           My belief is that humans can only work effectively in a
           well-maintained environment

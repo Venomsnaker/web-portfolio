@@ -64,7 +64,7 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         Greeting! I'm
-        <span className="font-bold"> Huy</span>, currently a sophomore at
+        <span className="font-bold"> Huy (Venomsnaker)</span>, currently a sophomore at
         <span className="font-bold"> HCMUS</span>. My interests are anything
         related to
         <span className="italic underline"> computers</span>.
@@ -80,10 +80,10 @@ const Intro = () => {
       >
         <a
           className="group bg-white hover:text-orange-500 shadow shadow-black/5 m-2 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer dark:bg-white/10"
-          href="/resume.docx"
+          href="/resume.pdf"
           download
         >
-          Download My Resume{" "}
+          Resume{" "}
           <FaFileDownload className="group-hover:translate-y-1 transition" />
         </a>
 

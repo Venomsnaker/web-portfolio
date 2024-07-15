@@ -14,12 +14,15 @@ export default function Footer() {
           ByteGrad{" "}
         </a>{" "}
       </p>
+      <p>
+        Credits: Lukas, Pixabay, and Pavlo 
+      </p>
       <small className="mb-2 block text-xs">
-        &copy; 2023 Huy. All rights reserved.
+        &copy; 2024 Huy. All rights reserved.
       </small>
       <p className="text-xs">
         <span className="font-semibold">This website is built with </span>
-        React, Next.js, TypeScript, Tailwind CSS, Framer Motion, Github hosting.
+        React, Next.js, TypeScript, Tailwind CSS, Framer Motion, and GitHub hosting.
       </p>
     </footer>
   );
