@@ -80,8 +80,7 @@ const Intro = () => {
       >
         <a
           className="group bg-white hover:text-orange-500 shadow shadow-black/5 m-2 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer dark:bg-white/10"
-          href="/resume.pdf"
-          download
+          href="https://drive.google.com/file/d/1lZguk5kS1YjD1Lm41EiTavkt7FtxmV65/view?usp=sharing"
         >
           Resume{" "}
           <FaFileDownload className="group-hover:translate-y-1 transition" />
