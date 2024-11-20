@@ -41,12 +41,12 @@ export const experiencesData = [
     date: "2019-2022",
   },
   {
-    title: "HCMUS Sophomore",
+    title: "HCMUS Junior",
     location: "Ho Chi Minh, Viet Nam",
     description:
       "I'm majoring in Artificial Intelligence with a current GPA of roughly 3.5.",
     icon: React.createElement(FaUniversity),
-    date: "2022-2024",
+    date: "2022-2025",
   },
 ] as const;
 
@@ -55,20 +55,20 @@ export const projectsData = [
     title: "School Projects",
     description:
       "There are many small-scale projects that I participated in my college years. I have learned many valuable skills from my mentors and friends while creating these projects.",
-    tags: ["Git", "C++", "C#", "Python", "R", "MySQL"],
+    tags: ["Git", "C++", "C#", "Python", "R", "SQL", "Kotlin", "XML"],
     imageUrl: imgCode,
   },
   {
     title: "NLP Projects",
     description:
-      "I am working on various NLP topics to support my bachelor's degree in Artificial Intelligence. Currently, I'm tacting with the foundations for LMM.",
+      "I am working on various NLP topics to support my bachelor's degree in Artificial Intelligence. Currently, I'm tackling with detecting Hallucination in LMMs.",
     tags: ["Project Management", "Python", "NLP"],
     imageUrl: imgProject,
   },
   {
     title: "Indie Game Projects",
     description:
-      "I have worked on various indie games, participating in GMTK 2019 and GMTK 2020. All games are in 2D built using Unity, but I'm moving toward building 3D games with Unreal Engine.",
+      "I have worked on various indie games, participating in GMTK 2019 and GMTK 2020. All games are in 2D built using Unity, but I'm moving toward building 3D games with Unreal Engine as a hobby.",
     tags: ["Unity", "Unreal Engine"],
     imageUrl: imgCreativity,
   },
@@ -81,6 +81,8 @@ export const skillsData = [
   "Python",
   "R",
   "SQL",
+  "Kotlin",
+  "XML",
   "Unity",
   "Unreal Engine",
 ] as const;

@@ -21,12 +21,12 @@ export default function About() {
       <p className="mb-3 text-center text-lg">
         My passion for programming stems from{" "}
         <span className="font-bold">high school</span>, ever since I started
-        making indie games with simple code snippets. Later, I enrolled in{" "}
+        making indie games with Unity. Later, I enrolled in{" "}
         <span className="font-bold">
           HCMUS - Ho Chi Minh University of Science
         </span>
         , majoring in <span className="underline">Artificial Intelligence</span>
-        , which gave me a strong foundation for my career.
+        , which gave me a strong foundation for my career going forward.
       </p>
       <p className="mb-3 text-center text-lg">
         <span className="italic">
@@ -48,7 +48,7 @@ export default function About() {
           My belief is that humans can only work effectively in a
           well-maintained environment
         </span>
-        . Traveling is quite delightful for my personal life as well.
+        . Traveling is quite delightful as well.
       </p>
     </motion.section>
   );

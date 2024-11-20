@@ -53,7 +53,7 @@ const Intro = () => {
               duration: 0.8,
             }}
           >
-            ✌️
+            🐍
           </motion.span>
         </div>
       </div>
@@ -64,7 +64,7 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         Greeting! I'm
-        <span className="font-bold"> Huy (Venomsnaker)</span>, currently a sophomore at
+        <span className="font-bold"> Huy (Venomsnaker)</span>, currently a junior at
         <span className="font-bold"> HCMUS</span>. My interests are anything
         related to
         <span className="italic underline"> computers</span>.
