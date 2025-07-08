@@ -41,27 +41,27 @@ export const experiencesData = [
     date: "2019-2022",
   },
   {
-    title: "HCMUS Junior",
-    location: "Ho Chi Minh, Viet Nam",
+    title: "HCMUS Senior",
+    location: "Ho Chi Minh city, Viet Nam",
     description:
-      "I'm majoring in Artificial Intelligence with a current GPA of roughly 3.5.",
+      "I'm majoring in Artificial Intelligence in Ho Chi Minh University of Science.",
     icon: React.createElement(FaUniversity),
-    date: "2022-2025",
+    date: "2022-2026",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "School Projects",
+    title: "University Projects",
     description:
-      "There are many small-scale projects that I participated in my college years. I have learned many valuable skills from my mentors and friends while creating these projects.",
-    tags: ["Git", "C++", "C#", "Python", "R", "SQL", "Kotlin", "XML"],
+      "Small-scale projects that I participated in during my college years. I have learned many valuable skills from my mentors and friends while creating these projects.",
+    tags: ["Git", "C++", "Python", "SQL"],
     imageUrl: imgCode,
   },
   {
-    title: "NLP Projects",
+    title: "Artificial Intelligence Projects",
     description:
-      "I am working on various NLP topics to support my bachelor's degree in Artificial Intelligence. Currently, I'm tackling with detecting Hallucination in LMMs.",
+      "I am working on various AI topics to support my bachelor's degree. Currently, I'm tackling detecting hallucination in LMMs.",
     tags: ["Project Management", "Python", "NLP"],
     imageUrl: imgProject,
   },
@@ -79,10 +79,7 @@ export const skillsData = [
   "C++",
   "C#",
   "Python",
-  "R",
   "SQL",
-  "Kotlin",
-  "XML",
   "Unity",
   "Unreal Engine",
 ] as const;

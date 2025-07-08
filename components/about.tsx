@@ -41,15 +41,6 @@ export default function About() {
         . <span className="italic">AI is a cutting-edge technology</span>, and
         I'm eager to learn it!{" "}
       </p>
-      <p className="text-center text-lg">
-        <span className="font-bold">Regarding leisure activities</span>, I enjoy
-        caring for my house plants and organizing my room.{" "}
-        <span className="italic">
-          My belief is that humans can only work effectively in a
-          well-maintained environment
-        </span>
-        . Traveling is quite delightful as well.
-      </p>
     </motion.section>
   );
 }
